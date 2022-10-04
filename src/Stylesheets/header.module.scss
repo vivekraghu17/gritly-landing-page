@@ -1,0 +1,80 @@
+.main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .logo-section {
+    margin-left: 50px;
+    .gritly-logo {
+      width: 99px;
+      height: 46px;
+    }
+  }
+  .right-side-header {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+    .how-we-work-link {
+      width: 88px;
+      height: 16px;
+      margin-right: 40px;
+      //font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      font-feature-settings: "liga" off;
+
+      /* Text / Gray 900 */
+
+      color: #18191f;
+    }
+    .for-companies {
+      width: 95px;
+      height: 16px;
+      margin-right: 40px;
+      //font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      font-feature-settings: "liga" off;
+
+      /* Text / Gray 900 */
+
+      color: #18191f;
+    }
+    .apply-now-section {
+      .apply-now-button {
+        padding: 10px 21px;
+        gap: 10px;
+        //font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        font-feature-settings: "liga" off;
+        width: 129px;
+        height: 36px;
+        color: white;
+        background: #0e1555;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-div {
+    .right-side-header {
+      .how-we-work-link {
+        display: none;
+      }
+      .for-companies {
+        display: none;
+      }
+    }
+  }
+}

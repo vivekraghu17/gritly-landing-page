@@ -1,0 +1,290 @@
+.main-div {
+  .banner-wrapper {
+    height: 299px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    /* linear */
+    align-items: center;
+    background: linear-gradient(107.28deg, #0e1555 38.14%, #142297 98.54%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .left-side-header {
+      display: flex;
+      flex-direction: column;
+      .main-text {
+        width: 484px;
+        height: 58px;
+        left: 107px;
+        top: 156px;
+
+        //font-family: "Nunito";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        /* identical to box height, or 58px */
+
+        color: #ffffff;
+      }
+      .sub-text {
+        margin-top: 20px;
+        height: 56px;
+        left: 8.57%;
+        right: 42.31%;
+        top: 230px;
+        margin-left: 10px;
+        //font-family: "Nunito";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        /* or 24px */
+        width: 671px;
+
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+    .right-side-header-wrapper {
+      .card-form {
+        width: 390px;
+        height: 438px;
+        margin-top: 300px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .form-header {
+          width: 290px;
+          height: 17px;
+          left: 911px;
+          top: 148px;
+
+          //font-family: "Nunito";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 106.4%;
+          /* identical to box height, or 17px */
+
+          color: #000000;
+        }
+        .form-sub-header {
+          width: 146px;
+          height: 15px;
+          left: 980px;
+          top: 175px;
+
+          //font-family: "Nunito";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 106.4%;
+          /* identical to box height, or 15px */
+
+          color: #444444;
+        }
+        .form-section {
+          display: flex;
+          flex-direction: column;
+          .name-input {
+            width: 342.78px;
+            height: 42.85px;
+            background: #ffffff;
+          }
+          .email-input {
+            width: 342.78px;
+            height: 42.85px;
+            background: #ffffff;
+            margin-top: 20px;
+          }
+          .course-input {
+            width: 342.78px;
+            height: 42.85px;
+            //background: #ffffff;
+            margin-top: 20px;
+            margin-left: 23px;
+          }
+          .phno-input {
+            width: 342.78px;
+            height: 42.85px;
+            background: #ffffff;
+            margin-top: 20px;
+          }
+          .submit-button {
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 0%;
+            width: 260px;
+            height: 56px;
+            background: #fac30f;
+            border-radius: 5px;
+            margin-top: 40px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .info-wrapper {
+    height: 1000px;
+    .first-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 50px;
+      margin-left: 220px;
+      .first-header {
+        //width: 333px;
+        height: 29px;
+        left: 120px;
+        top: 421px;
+
+        //font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* identical to box height, or 29px */
+
+        color: #000000;
+      }
+      .first-sub-text {
+        left: 9.3%;
+        right: 41.58%;
+        top: 473px;
+        width: 800px;
+        //font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        /* or 24px */
+        margin-top: 30px;
+        text-align: left;
+        color: #5a5a5a;
+      }
+    }
+    .second-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 50px;
+      margin-left: 220px;
+      .second-header {
+        //width: 333px;
+        height: 29px;
+        left: 120px;
+        top: 421px;
+
+        //font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* identical to box height, or 29px */
+
+        color: #000000;
+      }
+      .second-sub-text {
+        left: 9.3%;
+        right: 41.58%;
+        top: 473px;
+        width: 800px;
+        //font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        /* or 24px */
+        margin-top: 30px;
+        text-align: left;
+        color: #5a5a5a;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .main-div {
+    .banner-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .left-side-header {
+        .main-text {
+          width: calc(100%) !important;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 120%;
+          left: 5px;
+          top: 100px;
+          position: absolute;
+          text-align: center;
+        }
+        .sub-text {
+          margin-top: 0px;
+          height: 56px;
+          left: 0%;
+          right: 42.31%;
+          top: 130px;
+          margin-left: 0px;
+          //font-family: "Nunito";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 120%;
+          /* or 24px */
+          width: calc(100%) !important;
+          position: absolute;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      .right-side-header-wrapper {
+        .card-form {
+          margin-top: 500px;
+        }
+      }
+    }
+    .info-wrapper {
+      height: 1000px;
+      .first-info {
+        margin-left: 0px;
+        margin-top: 400px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .first-header {
+        }
+        .first-sub-text {
+          width: calc(100%) !important;
+          text-align: center;
+          justify-content: center;
+          font-size: 20px;
+        }
+      }
+      .second-info {
+        margin-left: 0px;
+        margin-top: 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .second-header {
+        }
+        .second-sub-text {
+          width: calc(100%) !important;
+          text-align: center;
+          justify-content: center;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
